@@ -4,7 +4,7 @@
 
 @interface ViewController : UIViewController
 
-/// Designated initialiser
-- (instancetype)init __attribute((objc_designated_initializer));
+- (instancetype)init NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)decoder NS_DESIGNATED_INITIALIZER;
 
 @end

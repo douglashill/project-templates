@@ -16,6 +16,11 @@
 	return self;
 }
 
+- (instancetype)initWithCoder:(NSCoder *)decoder
+{
+	return [super initWithCoder:decoder];
+}
+
 - (void)loadView
 {
 	UIView *const view = [[UIView alloc] init];
